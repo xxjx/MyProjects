@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 67 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPBDC9.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/67.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\67\Binary_node.cpp"
+"C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\67\Binary_tree.cpp"
+"C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\67\Maib.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPBDC9.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPBDCA.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/67.pdb" /debug /machine:I386 /out:"Debug/67.exe" /pdbtype:sept 
+".\Debug\MyStack.obj"
+".\Debug\Binary_node.obj"
+".\Debug\Binary_tree.obj"
+".\Debug\Key.obj"
+".\Debug\Maib.obj"
+".\Debug\Record.obj"
+".\Debug\MyQueue.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPBDCA.tmp"
+<h3>Output Window</h3>
+Compiling...
+Binary_tree.cpp
+c:\program files (x86)\microsoft visual studio\myprojects\67\binary_node.h(19) : error C2953: 'Binary_node' : template class has already been defined
+        c:\program files (x86)\microsoft visual studio\myprojects\67\binary_node.h(19) : see declaration of 'Binary_node'
+c:\program files (x86)\microsoft visual studio\myprojects\67\binary_node.cpp(11) : error C2995: 'Binary_node<Entry>::Binary_node<Entry>' : template function has already been defined
+        c:\program files (x86)\microsoft visual studio\myprojects\67\binary_node.h(15) : see declaration of 'Binary_node<Entry>::Binary_node<Entry>'
+c:\program files (x86)\microsoft visual studio\myprojects\67\binary_node.cpp(25) : error C2995: 'Binary_node<Entry>::Binary_node<Entry>' : template function has already been defined
+        c:\program files (x86)\microsoft visual studio\myprojects\67\binary_node.h(17) : see declaration of 'Binary_node<Entry>::Binary_node<Entry>'
+Maib.cpp
+c:\program files (x86)\microsoft visual studio\myprojects\67\binary_node.h(19) : error C2953: 'Binary_node' : template class has already been defined
+        c:\program files (x86)\microsoft visual studio\myprojects\67\binary_node.h(19) : see declaration of 'Binary_node'
+c:\program files (x86)\microsoft visual studio\myprojects\67\binary_node.cpp(11) : error C2995: 'Binary_node<Entry>::Binary_node<Entry>' : template function has already been defined
+        c:\program files (x86)\microsoft visual studio\myprojects\67\binary_node.h(15) : see declaration of 'Binary_node<Entry>::Binary_node<Entry>'
+c:\program files (x86)\microsoft visual studio\myprojects\67\binary_node.cpp(25) : error C2995: 'Binary_node<Entry>::Binary_node<Entry>' : template function has already been defined
+        c:\program files (x86)\microsoft visual studio\myprojects\67\binary_node.h(17) : see declaration of 'Binary_node<Entry>::Binary_node<Entry>'
+Binary_node.cpp
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+67.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

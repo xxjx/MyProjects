@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: B_trees - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPE349.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/B_trees.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\B_trees\B_tree.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPE349.tmp" 
+<h3>Output Window</h3>
+Compiling...
+B_tree.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\B_trees\B_tree.cpp(114) : error C2244: 'B_tree<Record,order>::split_node' : unable to resolve function overload
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\B_trees\B_tree.cpp(115) : error C2954: template definitions cannot nest
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\B_trees\B_tree.cpp(183) : error C2244: 'B_tree<Record,order>::restore' : unable to resolve function overload
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\B_trees\B_tree.cpp(184) : error C2954: template definitions cannot nest
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\B_trees\B_tree.cpp(185) : error C2146: syntax error : missing ',' before identifier 'order'
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\B_trees\B_tree.cpp(185) : error C2977: 'B_tree' : too many template arguments
+        c:\program files (x86)\microsoft visual studio\myprojects\b_trees\b_tree.h(23) : see declaration of 'B_tree'
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\B_trees\B_tree.cpp(236) : error C2244: 'B_tree<Record,order>::combine' : unable to resolve function overload
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+B_tree.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

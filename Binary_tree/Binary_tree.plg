@@ -1,0 +1,84 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Binary_tree - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP43F3.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/Binary_tree.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\Binary_tree\Binary_tree.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP43F3.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP43F4.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Binary_tree.pdb" /debug /machine:I386 /out:"Debug/Binary_tree.exe" /pdbtype:sept 
+".\Debug\Binary_tree.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP43F4.tmp"
+<h3>Output Window</h3>
+Compiling...
+Binary_tree.cpp
+c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.h(19) : error C2535: '__thiscall Binary_tree<Entry>::Binary_tree<Entry>(const class Binary_tree<Entry> &)' : member function already defined or declared
+        c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.h(17) : see declaration of 'Binary_tree<Entry>::Binary_tree<Entry>'
+        c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.h(27) : see reference to class template instantiation 'Binary_tree<Entry>' being compiled
+c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.h(21) : error C2061: syntax error : identifier 'Binary_node'
+        c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.h(27) : see reference to class template instantiation 'Binary_tree<Entry>' being compiled
+c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.h(24) : error C2143: syntax error : missing ';' before '<'
+        c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.h(27) : see reference to class template instantiation 'Binary_tree<Entry>' being compiled
+c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.h(24) : error C2501: 'Binary_node' : missing storage-class or type specifiers
+        c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.h(27) : see reference to class template instantiation 'Binary_tree<Entry>' being compiled
+c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.h(24) : error C2059: syntax error : '<'
+        c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.h(27) : see reference to class template instantiation 'Binary_tree<Entry>' being compiled
+c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.h(24) : error C2238: unexpected token(s) preceding ';'
+        c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.h(27) : see reference to class template instantiation 'Binary_tree<Entry>' being compiled
+c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.h(25) : error C2061: syntax error : identifier 'Binary_node'
+        c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.h(27) : see reference to class template instantiation 'Binary_tree<Entry>' being compiled
+c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.h(26) : error C2061: syntax error : identifier 'Binary_node'
+        c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.h(27) : see reference to class template instantiation 'Binary_tree<Entry>' being compiled
+c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.h(27) : error C2143: syntax error : missing ';' before '}'
+        c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.h(27) : see reference to class template instantiation 'Binary_tree<Entry>' being compiled
+c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_node.h(9) : error C2065: 'Entry' : undeclared identifier
+c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_node.h(9) : error C2955: 'Binary_node' : use of class template requires template argument list
+        c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_node.h(8) : see declaration of 'Binary_node'
+c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_node.h(14) : error C2955: 'Binary_node' : use of class template requires template argument list
+        c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_node.h(8) : see declaration of 'Binary_node'
+c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_node.h(14) : error C2143: syntax error : missing ',' before '&'
+c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_node.h(14) : error C2059: syntax error : '&'
+c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_node.h(15) : error C2511: 'Binary_node::Binary_node' : overloaded member function 'void (const int)' not found in 'Binary_node'
+        c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_node.h(8) : see declaration of 'Binary_node'
+c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.cpp(15) : error C2039: 'recursive_inorder' : is not a member of 'Binary_tree<Entry>'
+c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.cpp(24) : error C2059: syntax error : '('
+c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.cpp(24) : error C2091: function returns function
+c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.cpp(24) : error C2244: 'Binary_tree<Entry>::postorder' : unable to resolve function overload
+c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.cpp(24) : error C2059: syntax error : ')'
+c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.cpp(28) : error C2904: 'Entry' : template-name already defined as 'int Entry'
+c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.cpp(29) : error C2039: 'recursive_postorder' : is not a member of 'Binary_tree'
+        c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.h(27) : see declaration of 'Binary_tree'
+c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.cpp(30) : error C2143: syntax error : missing ';' before '{'
+c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.cpp(30) : error C2447: missing function header (old-style formal list?)
+c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.cpp(37) : error C2954: template definitions cannot nest
+c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.cpp(41) : error C2244: 'Binary_tree<Entry>::empty' : unable to resolve function overload
+c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.cpp(42) : error C2954: template definitions cannot nest
+c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.cpp(59) : error C2244: 'Binary_tree<Entry>::search_and_destroy' : unable to resolve function overload
+c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.cpp(60) : error C2954: template definitions cannot nest
+c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.cpp(83) : error C2244: 'Binary_tree<Entry>::remove_root' : unable to resolve function overload
+c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.cpp(85) : error C2511: 'Binary_tree::Binary_tree' : overloaded member function 'void (const class Binary_tree &)' not found in 'Binary_tree'
+        c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.h(27) : see declaration of 'Binary_tree'
+c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.cpp(89) : error C2511: '=' : overloaded member function 'class Binary_tree &(const class Binary_tree &)' not found in 'Binary_tree'
+        c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.h(27) : see declaration of 'Binary_tree'
+c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.cpp(98) : error C2511: 'recursive_copy' : overloaded member function 'void (struct Binary_node *& ,struct Binary_node *& )' not found in 'Binary_tree'
+        c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.h(27) : see declaration of 'Binary_tree'
+c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.cpp(107) : error C2954: template definitions cannot nest
+c:\program files (x86)\microsoft visual studio\myprojects\binary_tree\binary_tree.cpp(146) : error C2244: 'Binary_tree<Entry>::interchange' : unable to resolve function overload
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+Binary_tree.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

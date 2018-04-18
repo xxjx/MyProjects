@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: try1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPDB9F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/try1.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\try1\try1View.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPDB9F.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPDBA0.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/try1.pdb" /debug /machine:I386 /out:"Debug/try1.exe" /pdbtype:sept 
+".\Debug\try1.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MainFrm.obj"
+".\Debug\try1Doc.obj"
+".\Debug\try1View.obj"
+".\Debug\try1.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPDBA0.tmp"
+<h3>Output Window</h3>
+Compiling...
+try1View.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\try1\try1View.cpp(42) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\try1\try1View.cpp(67) : error C2018: unknown character '0xa1'
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\try1\try1View.cpp(67) : error C2018: unknown character '0xdc'
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\try1\try1View.cpp(67) : error C2146: syntax error : missing ';' before identifier 'x2'
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\try1\try1View.cpp(67) : error C2146: syntax error : missing ')' before identifier 'x'
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\try1\try1View.cpp(67) : error C2059: syntax error : ';'
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\try1\try1View.cpp(67) : error C2059: syntax error : ')'
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\try1\try1View.cpp(68) : error C2143: syntax error : missing ';' before '{'
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\try1\try1View.cpp(69) : error C2065: 'drawpixel' : undeclared identifier
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\try1\try1View.cpp(69) : error C2065: 'color' : undeclared identifier
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+try1.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

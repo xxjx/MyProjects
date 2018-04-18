@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Link_Queue - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPCDD5.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Link_Queue.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\Link_Queue\Stack.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPCDD5.tmp" 
+<h3>Output Window</h3>
+Compiling...
+Stack.cpp
+c:\program files (x86)\microsoft visual studio\myprojects\link_queue\stack.h(3) : error C2011: 'Error_code' : 'enum' type redefinition
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\Link_Queue\Stack.cpp(4) : error C2653: 'Stack' : is not a class or namespace name
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\Link_Queue\Stack.cpp(6) : error C2065: 'top_node' : undeclared identifier
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\Link_Queue\Stack.cpp(7) : warning C4508: 'Stack' : function should return a value; 'void' return type assumed
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\Link_Queue\Stack.cpp(8) : error C2653: 'Stack' : is not a class or namespace name
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\Link_Queue\Stack.cpp(9) : error C2270: 'empty' : modifiers not allowed on nonmember functions
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\Link_Queue\Stack.cpp(11) : error C2143: syntax error : missing ';' before '}'
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\Link_Queue\Stack.cpp(12) : error C2653: 'Stack' : is not a class or namespace name
+C:\Program Files (x86)\Microsoft Visual Studio\MyProjects\Link_Queue\Stack.cpp(15) : fatal error C1004: unexpected end of file found
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+Stack.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
